@@ -5,6 +5,53 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="card" style="width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title" style="float: left;">@DateTime.Today.ToString("D")</h5>
+            <h5 class="card-title" style="float: right;">@string.Format("{0:t}", DateTime.Now)</h5>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                    <th scope="col">Employee</th>
+                    <th scope="col">Ext.</th>
+                    <th scope="col">Message</th>
+                    <th scope="col">In/Out</th>
+                    <th scope="col"></th>
+                    <th scope="col">Action</th>
+                    <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">Jose Cisneros</th>
+                    <td>107</td>
+                    <td class="message"></td>
+                    <td>In</td>
+                    <td><a href="#">Clock In</a></td>
+                    <td><a href="#">Report</a></td>
+                    <td><a href="#">Status</a></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Jonathan Adams</th>
+                    <td>103</td>
+                    <td class="message"></td>
+                    <td>In</td>
+                    <td><a href="#">Clock In</a></td>
+                    <td><a href="#">Report</a></td>
+                    <td><a href="#">Status</a></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Jose Cisneros</th>
+                    <td>107</td>
+                    <td class="message"></td>
+                    <td>In</td>
+                    <td><a href="#">Clock In</a></td>
+                    <td><a href="#">Report</a></td>
+                    <td><a href="#">Status</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#" class="card-link">Admin</a>
+        </div>
+    </div>
 </div>
