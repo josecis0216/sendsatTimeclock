@@ -4,43 +4,66 @@
     ViewData["Title"] = "Time Clock Add User";
 }
 
-<div class="card" style="max-width: 960px; margin: auto;" >
-    <div class="card-body">
-        <form>
-            <div class="form-group">
-                <label for="firstName">First Name</label>
-                <input type="text" class="form-control" id="firstName" aria-describedby="nameHelp">
-            </div>
-            <div class="form-group">
-                <label for="lastName">Last Name</label>
-                <input type="text" class="form-control" id="lastName" aria-describedby="nameHelp">
-            </div>
-            <div class="form-group">
-                <label for="inputEmail">Email address</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group" style="width: 50%;">
-                <label for="extension">Extension</label>
-                <input type="text" class="form-control" id="extension">
-            </div>
-            <div class="form-group">
-                <label for="password1">Password</label>
-                <input type="password" class="form-control" id="password1">
-            </div>
-            Admin?
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="yes" value="Yes" checked>
-                <label class="form-check-label" for="yes">
-                    Yes
-                </label>
+<div>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" asp-page="/admin">Admin Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/users">Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" asp-page="/add-user">Add User</a>
+        </li>
+    </ul>
+    <div class="card" style="width: 100%;" >
+        <h3 style="text-align: left; padding: 5px;">Add a New User</h3>
+        <hr>
+        <div class="card-body">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName">
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName">
+                    </div>
                 </div>
-                <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="no" value="No">
-                <label class="form-check-label" for="no">
-                    No
-                </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Add User</button>
-        </form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                    <label for="inputCity">Extension</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                    <label for="inputState">Admin</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>No</option>
+                        <option>Yes</option>
+                    </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Add User</button>
+            </form>
+        </div>
     </div>
+    <ul class="nav" style="float: right;">
+        <li class="nav-item">
+            <a class="nav-link" asp-page="/Index">Back to Time Clock</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Logout</a>
+        </li>
+    </ul>
 </div>

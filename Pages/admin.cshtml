@@ -3,21 +3,22 @@
 @{
     ViewData["Title"] = "Time Clock Admin";
 }
-<h1 class="text-center">@ViewData["Title"]</h1>
 
 <div>
-    <ul class="nav nav-tabs" style="float: right;">
+    <ul class="nav nav-tabs" style="float: left;">
         <li class="nav-item">
             <a class="nav-link active" asp-page="/admin">Admin Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Users</a>
+            <a class="nav-link" asp-page="/users">Users</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" asp-page="/add-user">Add User</a>
         </li>
     </ul>
     <div class="card" style="width: 100%;">
+        <h3 style="text-align: left; padding: 5px;">Time Clock Admin</h3>
+        <hr>
         <div class="card-body">
             <a href="#" class="card-link" style="text-align: left;">Time Clock Users</a>
             <p class="card-text">Using this tool you can view and change information on Time Clock users.</p>

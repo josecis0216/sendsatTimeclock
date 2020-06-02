@@ -20541,6 +20541,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/users.cshtml",
+      "TargetPath": "Pages\\users.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
