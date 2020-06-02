@@ -20521,6 +20521,11 @@
   "RootNamespace": "sendsatTimeclock",
   "Documents": [
     {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/add-user.cshtml",
+      "TargetPath": "Pages\\add-user.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/admin.cshtml",
       "TargetPath": "Pages\\admin.cshtml",
       "FileKind": "mvc"
