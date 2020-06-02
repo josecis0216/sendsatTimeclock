@@ -1,0 +1,36 @@
+@page
+@model AdminModel
+@{
+    ViewData["Title"] = "Time Clock Admin";
+}
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div>
+    <ul class="nav nav-tabs" style="float: right;">
+        <li class="nav-item">
+            <a class="nav-link active" asp-page="/admin">Admin Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Add User</a>
+        </li>
+    </ul>
+    <div class="card" style="width: 100%;">
+        <div class="card-body">
+            <a href="#" class="card-link" style="text-align: left;">Time Clock Users</a>
+            <p class="card-text">Using this tool you can view and change information on Time Clock users.</p>
+            <a href="#" class="card-link" style="text-align: left;">Payroll Reports</a>
+            <p class="card-text">Using this tool you can easily run payroll reports for Time Clock users.</p>
+        </div>
+    </div>
+    <ul class="nav" style="float: right;">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Back to Time Clock</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Logout</a>
+        </li>
+    </ul>
+</div>

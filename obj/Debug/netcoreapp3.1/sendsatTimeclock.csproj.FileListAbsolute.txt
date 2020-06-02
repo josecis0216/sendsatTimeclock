@@ -341,3 +341,4 @@
 /Users/josecisneros/sendsatTimeclock/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/josecisneros/sendsatTimeclock/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/josecisneros/sendsatTimeclock/obj/Debug/netcoreapp3.1/sendsatTimeclock.MvcApplicationPartsAssemblyInfo.cs
+/Users/josecisneros/sendsatTimeclock/obj/Debug/netcoreapp3.1/Razor/Pages/admin.cshtml.g.cs
