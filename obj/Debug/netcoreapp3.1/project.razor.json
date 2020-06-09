@@ -20521,8 +20521,13 @@
   "RootNamespace": "sendsatTimeclock",
   "Documents": [
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/add-user.cshtml",
-      "TargetPath": "Pages\\add-user.cshtml",
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Edit.cshtml",
+      "TargetPath": "Pages\\Admin\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20541,23 +20546,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/users.cshtml",
-      "TargetPath": "Pages\\users.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Details.cshtml",
+      "TargetPath": "Pages\\Admin\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Create.cshtml",
+      "TargetPath": "Pages\\Admin\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20568,6 +20573,11 @@
     {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Delete.cshtml",
+      "TargetPath": "Pages\\Admin\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],
