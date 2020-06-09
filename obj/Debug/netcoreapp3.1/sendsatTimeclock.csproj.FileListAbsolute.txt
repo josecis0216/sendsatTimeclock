@@ -428,3 +428,4 @@
 /Users/josecisneros/sendsatTimeclock/obj/Debug/netcoreapp3.1/Razor/Pages/Index/Details.cshtml.g.cs
 /Users/josecisneros/sendsatTimeclock/obj/Debug/netcoreapp3.1/Razor/Pages/Index/Edit.cshtml.g.cs
 /Users/josecisneros/sendsatTimeclock/obj/Debug/netcoreapp3.1/Razor/Pages/Index/Index.cshtml.g.cs
+/Users/josecisneros/sendsatTimeclock/obj/Debug/netcoreapp3.1/Razor/Pages/home.cshtml.g.cs

@@ -1,0 +1,75 @@
+@page
+@model sendsatTimeclock.Pages.Index.IndexModel
+@{
+   ViewData["Title"] = "Home page";
+}
+ 
+<div class="text-center">
+   <div class="card" style="width: 100%;">
+       <div class="card-body">
+           <h5 class="card-title" style="float: left;">@DateTime.Today.ToString("D")</h5>
+           <h5 class="card-title" style="float: right;">@string.Format("{0:t}", DateTime.Now)</h5>
+           <table class="table table-hover">
+               <thead>
+                   <tr>
+                   <th scope="col">Employee</th>
+                   <th scope="col">Ext.</th>
+                   <th scope="col">Message</th>
+                   <th scope="col">In/Out</th>
+                   <th scope="col"></th>
+                   <th scope="col">Action</th>
+                   <th scope="col"></th>
+                   </tr>
+               </thead>
+               <tbody>
+                    @foreach (var item in Model.User) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FirstName)
+                            @Html.DisplayFor(modelItem => item.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ext)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            <a href="#">Clock In</a>
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <a href="#">Report</a>
+                        </td>
+                        <td>
+                            <a href="#">Status</a>
+                        </td>
+                    </tr>
+                    }
+               </tbody>
+           </table>
+           <a asp-page="/admin" class="card-link">Admin</a>
+           <!-- Modal -->
+           <div class="modal fade" id="punchInOut" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                   <div class="modal-content">
+                   <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLabel">Clock out as Jose Cisneros</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                       </button>
+                   </div>
+                   <div class="modal-body">
+                       ...
+                   </div>
+                   <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-primary">Clock Out</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>

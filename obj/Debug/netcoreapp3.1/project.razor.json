@@ -20521,16 +20521,6 @@
   "RootNamespace": "sendsatTimeclock",
   "Documents": [
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Index.cshtml",
-      "TargetPath": "Pages\\Admin\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Edit.cshtml",
-      "TargetPath": "Pages\\Admin\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/admin.cshtml",
       "TargetPath": "Pages\\admin.cshtml",
       "FileKind": "mvc"
@@ -20551,18 +20541,33 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Details.cshtml",
-      "TargetPath": "Pages\\Admin\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Create.cshtml",
-      "TargetPath": "Pages\\Admin\\Create.cshtml",
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Index/Details.cshtml",
+      "TargetPath": "Pages\\Index\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Index/Delete.cshtml",
+      "TargetPath": "Pages\\Index\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Index/Create.cshtml",
+      "TargetPath": "Pages\\Index\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/home.cshtml",
+      "TargetPath": "Pages\\home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Index/Edit.cshtml",
+      "TargetPath": "Pages\\Index\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20576,8 +20581,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Admin/Delete.cshtml",
-      "TargetPath": "Pages\\Admin\\Delete.cshtml",
+      "FilePath": "/Users/josecisneros/sendsatTimeclock/Pages/Index/Index.cshtml",
+      "TargetPath": "Pages\\Index\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
